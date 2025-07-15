@@ -1,4 +1,4 @@
-# Customer Service Dashboard - Power BI
+<img width="127" height="30" alt="image" src="https://github.com/user-attachments/assets/8bc8000e-b94a-417a-9013-65c4070e93e4" /><img width="402" height="30" alt="image" src="https://github.com/user-attachments/assets/297bbee5-456f-4c68-9694-90789a3b884f" /># Customer Service Dashboard - Power BI
 
 
 ### Link to [MY LinkedIn](https://www.linkedin.com/in/hakeem-data-analyst/)
@@ -45,15 +45,17 @@
    > - **<ins>ResolutionTimeHrs</ins>**: The time (in hours) it takes for an agent to resolve the Ticket.
    > - **<ins>SLAMet</ins>**: Whether the Ticket was resolved within the expected period or not.  
    
-2. **Dim_Agent Sheet**  
-   > - **<ins>Agent ID</ins>**: Unique ID for each **Agent**.  
-   > - **<ins>First Name</ins>**: First Name of each **Agent**.
-   > - **<ins>Last Name</ins>**: Last Name of each **Agent**. 
-   > - **<ins>Ethnicity</ins>**: The self-reported ethnicity of the agent, used for diversity and inclusion reporting.
-   > - **<ins>Gender</ins>**: The gender of the agent (e.g., Male, Female).
-   > - **<ins>Team</ins>**: The team or department the agent belongs to.
+2. **Customers Sheet**  
+   > - **<ins>CustomerID</ins>**: Unique **ID** for each **Customer**.
+   > - **<ins>FirstName</ins>**: First Name of each **Customer**.
+   > - **<ins>LastName</ins>**: Last Name of each **Customer**. 
+   > - **<ins>Email</ins>**: The email of the customer.
+   > - **<ins>Phone</ins>**: The phone number of the customer.
+   > - **<ins>Country</ins>**: The country of the customer.
+   > - **<ins>City</ins>**: The city of the customer.
+   > - **<ins>CreatedDate</ins>**: The customer's account creation date.
 
-3. **Dim_Topic Sheet**
+3. **Agents Sheet**
    > - **<ins>CallType ID</ins>**: A unique identifier for the type of call. Used as a primary key to link with fact tables.
    > - **<ins>CallType</ins>**: The category of the call (e.g., Inbound, Outbound).
 
