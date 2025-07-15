@@ -1,4 +1,4 @@
-<img width="127" height="30" alt="image" src="https://github.com/user-attachments/assets/8bc8000e-b94a-417a-9013-65c4070e93e4" /><img width="402" height="30" alt="image" src="https://github.com/user-attachments/assets/297bbee5-456f-4c68-9694-90789a3b884f" /># Customer Service Dashboard - Power BI
+# Customer Service Dashboard - Power BI
 
 
 ### Link to [MY LinkedIn](https://www.linkedin.com/in/hakeem-data-analyst/)
