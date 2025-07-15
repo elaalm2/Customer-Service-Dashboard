@@ -15,7 +15,7 @@
    <summary><strong>📌 Overview (click)</strong></summary>
 
  ### 🔍 **Overview**  
-> This multi-page Customer Service Dashboard offers a 360° view of operational efficiency, customer satisfaction, and team performance. Built using Microsoft Power BI, it enables decision-makers to monitor ticket volume, resolution efficiency, CSAT scores, SLA compliance, and agent performance in real time.
+> This multi-page Customer Service Dashboard offers a 360° view of operational efficiency, customer satisfaction, and team performance. Built using Microsoft Power BI, it enables decision-makers to monitor ticket volume, resolution efficiency, CSAT scores, SLA compliance, and agent performance in real time.    
 > Designed for both executive overviews and deep operational insights, this report supports quick identification of bottlenecks and improvement areas in customer support operations.
 
 </details>
@@ -25,32 +25,26 @@
    <summary><strong>📂 Data Sources (click)</strong></summary>
 
 ### **Data Sources**  
-> The dataset used for this analysis is the **"Customer_Service_Dataset_Final"** Excel workbook.  
+> The dataset used for this analysis is the **"Customer_Service_Dataset_Final"** Excel workbook which is custom made.  
 
 **▼ 📑Dataset Files Explanation** [[Download]](https://docs.google.com/spreadsheets/d/15NNmCALT3iGQuEVeqhOOHXfX5tQYDmyz/edit?usp=sharing&ouid=109235881739082264954&rtpof=true&sd=true)  
 
 
-1. **Fact_Call_Center Sheet**  
-   > - **<ins>Call ID</ins>**: Unique **ID** for each **Call**. 
-   > - **<ins>Agent</ins>**: Unique ID for each **Agent** working on the call.
-   > - **<ins>Date</ins>**: Date of receiving the call.
-   > - **<ins>Time</ins>**: Time of receiving the call.
-   > - **<ins>Topic</ins>**: Topic discussed on the call. Foreign Key for **Dim_Topic table**.
-   > - **<ins>Call Type</ins>**: Inbound or Outbound. Foreign Key for **Dim_CallType table**.
-   > - **<ins>Answered</ins>**: Indicates whether the call was answered or not.
-   > - **<ins>Resolved</ins>**:: Indicates whether the issue was resolved during the call.
-   > - **<ins>Abandoned</ins>**:: Indicates whether the caller abandoned the call before being attended.
-   > - **<ins>AnsweringTime</ins>**:: Time taken for an agent to answer the call after it enters the queue (from ringing to pickup).
-   > - **<ins>WaitTime</ins>**:: Total time the caller spent waiting in queue (includes IVR time, excludes ringing).
-   > - **<ins>AvgTalkDuration</ins>**:: Average duration of the conversation between agent and caller (excluding hold time).
-   > - **<ins>AvgHoldDuration</ins>**:: Average time the caller was put on hold during the call (may include multiple hold events).
-   > - **<ins>AfterCallWork</ins>**:: Time agent spent on post-call activities before becoming available for the next call.
-   > - **<ins>SatisfactionRating</ins>**:: Customer Satisfaction Score (CSAT), typically rated 1–5.
-   > - **<ins>QAScore</ins>**:: Internal Quality Assessment score based on criteria like script adherence and professionalism.
-   > - **<ins>FirstCall</ins>**:: Indicates if the issue was resolved during the first call (used to track First Call Resolution).
-   > - **<ins>FlaggedCall</ins>**:: Indicates if the call was flagged for review due to complaints, unusual behavior, or policy concerns.
-   > - **<ins>Escalated</ins>**:: Indicates if the call was escalated to a higher-level agent or supervisor.
-
+1. **Tickets Sheet**  
+   > - **<ins>TicketID</ins>**: Unique **ID** for each **Ticket**.
+   > - **<ins>CustomerID</ins>**: Unique **ID** for each **Customer**.
+   > - **<ins>AgentID</ins>**: Unique **ID** for each **Agent**.
+   > - **<ins>CreatedDate</ins>**: Date of receiving the Contact or openning the Ticket.
+   > - **<ins>ClosedDate</ins>**: Date of closing the Ticket.
+   > - **<ins>Status</ins>**: The current status of the Ticket, whether it is closed, Escalated, in Progress, Open or Resolved.
+   > - **<ins>Priority</ins>**: It indicates the urgency of the Ticket.
+   > - **<ins>Category</ins>**: It is the Category of the issue or the inquiry which the customer is contacting us about.
+   > - **<ins>SubCategory</ins>**: It is the Sub-Category of the issue or the inquiry which the customer is contacting us about.
+   > - **<ins>Channel</ins>**: The communication channel which the customer is using.
+   > - **<ins>FirstResponseTimeMin</ins>**: The time (in minutes) it takes for an agent to send their initial response to a customer inquiry.
+   > - **<ins>ResolutionTimeHrs</ins>**: The time (in hours) it takes for an agent to resolve the Ticket.
+   > - **<ins>SLAMet</ins>**: Whether the Ticket was resolved within the expected period or not.  
+   
 2. **Dim_Agent Sheet**  
    > - **<ins>Agent ID</ins>**: Unique ID for each **Agent**.  
    > - **<ins>First Name</ins>**: First Name of each **Agent**.
