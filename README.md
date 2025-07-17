@@ -56,9 +56,12 @@
    > - **<ins>CreatedDate</ins>**: The customer's account creation date.
 
 3. **Agents Sheet**
-   > - **<ins>CallType ID</ins>**: A unique identifier for the type of call. Used as a primary key to link with fact tables.
-   > - **<ins>CallType</ins>**: The category of the call (e.g., Inbound, Outbound).
-
+   > - **<ins>AgentID</ins>**: Unique **ID** for each **Agent**.
+   > - **<ins>FullName</ins>**: The full name of the agent.
+   > - **<ins>Email</ins>**: The company email of the agent.
+   > - **<ins>Team</ins>**: The team to which the agent is assigned.
+   > - **<ins>Manager</ins>**: The manager of the agent.
+   > - 
 </details>
 
 <!-- ------------------------------------------------------------------------------------------- -->
