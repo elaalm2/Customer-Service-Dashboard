@@ -1,4 +1,4 @@
-# Customer Service Dashboard - Power BI
+<img width="757" height="30" alt="image" src="https://github.com/user-attachments/assets/b77046d4-f725-4af6-9fc8-0f27e5dd5c3e" /># Customer Service Dashboard - Power BI
 
 
 ### Link to [MY LinkedIn](https://www.linkedin.com/in/hakeem-data-analyst/)
@@ -61,7 +61,18 @@
    > - **<ins>Email</ins>**: The company email of the agent.
    > - **<ins>Team</ins>**: The team to which the agent is assigned.
    > - **<ins>Manager</ins>**: The manager of the agent.
-   > - 
+   > - **<ins>Location</ins>**: The city of the agent.
+   > - **<ins>HireDate</ins>**: The hiring date of the agent.
+   > - **<ins>Status</ins>**: Whether the agent is still hired in the company or not.
+
+   3. **Feedback Sheet**
+   > - **<ins>TicketID</ins>**: Unique **ID** for each **Ticket**.
+   > - **<ins>CustomerID</ins>**: Unique **ID** for each **Customer**.
+   > - **<ins>FeedbackID</ins>**: Unique **ID** for each **Feedback**.
+   > - **<ins>Date</ins>**: The date of the feedback.
+   > - **<ins>CSAT</ins>**: Customer Satisfaction Score (CSAT), typically rated 1–5.
+   > - **<ins>Comments</ins>**: The written feedback of the customer.
+
 </details>
 
 <!-- ------------------------------------------------------------------------------------------- -->
