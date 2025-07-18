@@ -63,13 +63,19 @@
    > - **<ins>HireDate</ins>**: The hiring date of the agent.
    > - **<ins>Status</ins>**: Whether the agent is still hired in the company or not.
 
-   3. **Feedback Sheet**
+4. **Feedback Sheet**
    > - **<ins>TicketID</ins>**: Unique **ID** for each **Ticket**.
    > - **<ins>CustomerID</ins>**: Unique **ID** for each **Customer**.
    > - **<ins>FeedbackID</ins>**: Unique **ID** for each **Feedback**.
    > - **<ins>Date</ins>**: The date of the feedback.
    > - **<ins>CSAT</ins>**: Customer Satisfaction Score (CSAT), typically rated 1–5.
    > - **<ins>Comments</ins>**: The written feedback of the customer.
+
+5.**QualityScores Sheet**:
+> - **<ins>AgentID</ins>**: Unique **ID** for each **Agent**.
+> - **<ins>ReviewDate</ins>**: The date on which the quality audit was conducted.
+> - **<ins>ReviewDate</ins>**: A numerical rating that reflects the quality of the agent’s interaction based on predefined audit criteria.
+> - **<ins>ReviewedBy</ins>**: The name of the Quality Specialist who reviewed the ticket.
 
 </details>
 
