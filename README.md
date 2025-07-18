@@ -116,7 +116,7 @@ Build an interactive dashboard that helps:
 ## Dashboard
 <img src="https://github.com/user-attachments/assets/bf50e636-6a1e-4964-a9be-6bc4cc78b8f4" alt="image" width="800" height="500">  
 
-<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/683827d5-ec3c-4210-9954-25c3ae9db22e" />  
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/2c2e9091-a01d-4f35-9184-7032569167f2" />  
 
 <img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/88dd1d3e-cafb-4c71-87a5-d01d9e39c397" />  
 
