@@ -92,31 +92,36 @@ Build an interactive dashboard that helps:
 > - Assess overall efficiency and areas needing process improvement
 
 ## Main 𝐊𝐏𝐈𝐬
-- **<ins>Service Level (%)</ins>**: (Target: > 91.5%) Percentage of calls answered within your target time (30s).
-- **<ins>Answer Rate (%)</ins>**: (Target: > 95%) Percentage of calls answered vs. total calls received.
-- **<ins>Hold Time (%)</ins>**: (Target: < 10%) Percentage of time callers wait on hold from total in the call after answering. 
-- **<ins>First Call Resolution (FCR %)</ins>**: (Target: > 80%) Percentage of problems solved in the first call.
-- **<ins>Customer Satisfaction (CSAT %)</ins>**: (Target: > 4.4) Rating of Satisfaction customers (rated 1-5 stars).
-- **<ins>Average Handle Time (AHT)</ins>**: (Target: < 10:30) Average time agents spend per call without waiting time.
+- **<ins>Total Tickets</ins>**: This represent the number of contacts we have received.
+- **<ins>Tickets Resolved</ins>**: This represents the number of contacts Resolved and Closed.
+- **<ins>Tickets Pending</ins>**: This represents the number of contacts Open, In Progress and Escalated.
+- **<ins>AVG CSAT Score</ins>**: It is the average customer statisfaction score which indicates how much the customer is satisfied with our service. 
+- **<ins>SLA Compliance %</ins>**: The percentage of tickets resolved or responded to within the agreed Service Level Agreement (SLA) timeframe.
 
 ## Process
-1) Explored and validated the call center data
-2) Imported and cleaned data using Power Query with helper columns
-3) Built a data model
-4) Created key measures using DAX (e.g., SL, FCR, CSAT)
-5) Designed an interactive Excel dashboard to visualize insights
+1) Imported, explored and validated the data
+2) Cleaned the data using Power Query
+3) Created calculated Date table
+4) Built a data model
+5) Created key measures using DAX 
+6) Designed an interactive and insightful dashboard
 
 ## Measures (Dax)
 ;
-<img src="https://github.com/user-attachments/assets/62bacb17-9e9d-4412-82b7-8179673d61fc" alt="image" width="320" height="550" style="display: block; margin: 0;">
+<img width="179" height="352" alt="Image" src="https://github.com/user-attachments/assets/c49835b0-f300-4c04-8033-2772bcffb482" />
 
 ## Data Model
-![image](https://github.com/user-attachments/assets/f7dbc60e-06e8-4cea-a919-f0636b2e7f4a)
+<img width="450" height="700" alt="Image" src="https://github.com/user-attachments/assets/2401dbc0-bda0-48ae-a35a-9a04d00a7842" />
 
 ## Dashboard
-<img width="1500" alt="Group 3" src="https://github.com/user-attachments/assets/dc81c929-aa05-4aab-b525-44d5aa7c4bbd" />
-<img width="1500" alt="Group 3" src="https://github.com/user-attachments/assets/1977bd4a-6ebb-496b-bad8-5eeea6e89b35" />
-<img width="1500" alt="Group 3" src="https://github.com/user-attachments/assets/0022b20a-be22-4d65-94f3-a061e77ecfe8" />
+<img src="https://github.com/user-attachments/assets/bf50e636-6a1e-4964-a9be-6bc4cc78b8f4" alt="image" width="800" height="500">  
+
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/683827d5-ec3c-4210-9954-25c3ae9db22e" />  
+
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/88dd1d3e-cafb-4c71-87a5-d01d9e39c397" />  
+
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/3667d84e-db03-4810-b626-f0efb986d692" />
+
 
 
 [![Watch the demo](https://github.com/user-attachments/assets/2509495d-7fbf-4781-88c7-67f0db18b34f)](https://github.com/user-attachments/assets/eeb2cb96-1bd4-416c-8281-7c89d84cdc17)
