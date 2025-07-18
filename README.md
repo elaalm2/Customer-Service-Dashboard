@@ -126,32 +126,40 @@ Build an interactive dashboard that helps:
 
 [![Watch the demo](https://github.com/user-attachments/assets/2509495d-7fbf-4781-88c7-67f0db18b34f)](https://github.com/user-attachments/assets/eeb2cb96-1bd4-416c-8281-7c89d84cdc17)
 
+## 📌 Important Insights
 
-## Important Insights
- 1) **Service Level is On Target**
-    - At 92.0%, we’re meeting our goal (91.5%), showing good responsiveness, but we need to keep monitoring performance on certain days.
- 3) **Hold Time** 
-    - Current hold rate is 10.8%, exceeding the 10% target. Process optimization may help reduce this
- 3) **First Call Resolution (FCR)**
-    - We achieved 92.1% FCR, which is well above the target (80%). This means most customer issues are solved on the first call a strong sign of quality service.
-4) **Answer Rate Needs Improvement**
-    - Current rate is 93.2%, slightly below the 95% target. This means we need to improve staffing or efficiency during busy hours.
- 5) **Peak Hour is 3–4 PM**
-    - The highest call volume occurs between 3:00 and 4:00 PM with over 2,450 calls. This is a key time to ensure strong agent coverage.
- 6) **Sunday & Saturday weekends volume & performance**
-    - Saturday and Sunday show 100% service level, mainly due to very low call volume and sufficient staffing.
- 7) **Customer Inquiries & Resolution Rate**
-    - The resolution rate is highest for Tech Support (80.2%) and slightly lower for Billing and Complaints (78–79%).
- 8) **Some agents rated below target**
-    - A few agents didn’t meet the target in several KPIs like rating, AHT, and hold %. This shows they may need more training or support to improve their performance.
+## 🎯 Executive Overview (Page 1)
+ 1) **High Ticket Resolution Rate**
+    - Out of 6,000 total tickets, 5,817 were resolved, achieving a 97% resolution rate, indicating strong operational efficiency.
+ 2) **Customer Satisfaction Needs Improvement**
+    - The average CSAT score is 3.01 (out of 5), signaling a need to improve customer experience and service quality.
+ 3) **SLA Compliance at 85.7%**
+    - We are achieving the SLA target without any issues.
+ 4) **Top Issue Categories**
+    - The most reported sub-categories include Delayed, App Crash, and Bug Report, each with over 400+ tickets — pointing to key pain points in service or product experience.
+ 3) **CSAT Trend**
+    - Monthly CSAT scores fluctuate slightly, with a noticeable dip in late Q3 (Oct–Nov), suggesting service inconsistency during that period.
 
+## 📊 Tickets Overview (Page 2)
 
+ 1) **Even Distribution Across Channels**
+    - Tickets are evenly distributed across Phone (24.8%), Email (23.95%), Chat (25.67%), and Social Media (25.58%) — indicating the need for balanced resourcing across all channels.
+ 2) **Ticket Priorities Are Evenly Spread**
+    - High, Medium, Low, and Urgent priority tickets each make up around 25% of the total, highlighting the need to manage all urgency levels consistently.
+ 3) **Major Account Issues**
+    - Most issues comes from Billing and Account categories. These represent the highest share of total support volume and need special process attention.
+ 4) **Ticket Status Breakdown**
+    - Most tickets are Closed (5,760), with very few still Open (51), In Progress (70), or Escalated (62) — further proving operational control.
 
-
-
-
-
-
+## 👥 Agent Performance (Page 3)
+ 1) **Agent Productivity**
+    - Most agents resolved over 90% of their assigned tickets, with some like Joshua Roberts, Andrew Wilson, and Christopher Parker handling over 130 tickets each.
+ 2) **Response Time Gaps**
+    - FRT ranges between 87 to 102 minutes — some agents like Michael Zamora and Amanda Martinez show higher-than-average FRT, indicating training or process issues.
+ 3) **CSAT Score Distribution**
+    - CSAT scores vary from 2.80 to 3.03, with only a few agents exceeding the 3.0 mark (e.g., Yvette Bradley, Natalie Mullins) — room for overall improvement.
+ 4) **SLA Compliance by Agent**
+    - Some agents maintain SLA above 90% (e.g., Christopher Lyons, Yvette Bradley), while others fall below 80%, indicating training opportunities.
 
 
 
