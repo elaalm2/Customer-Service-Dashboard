@@ -81,11 +81,15 @@
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Case Study
-NBE call center supports many customers across different regions and receives a high number of calls every day. lately, the company has received complaints about long waiting times and poor service, some customers have even stopped using the service because of these issues.
+## 🗂️ Case Study
+A rapidly growing tech support center was struggling with visibility into service quality, agent performance, and customer satisfaction. With support tickets coming from multiple channels and countries, leadership needed a consolidated reporting system to track performance and identify areas for improvement.  
 
-Before growing the business further, the management team asked for an Excel dashboard to track important performance indicators like Answer Rate, Service Level, First Call Resolution (FCR), Customer Satisfaction (CSAT), and peak call times.
-The main goal is to understand where the problems are, improve team scheduling, and provide better service using clear and simple data.
+## 🎯 Objective  
+Build an interactive dashboard that helps:
+> - Monitor ticket lifecycle and SLA adherence
+> - Evaluate CSAT (Customer Satisfaction) trends
+> - Pinpoint sub-categories with high complaint volumes
+> - Assess overall efficiency and areas needing process improvement
 
 ## Main 𝐊𝐏𝐈𝐬
 - **<ins>Service Level (%)</ins>**: (Target: > 91.5%) Percentage of calls answered within your target time (30s).
