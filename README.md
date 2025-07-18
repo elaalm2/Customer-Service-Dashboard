@@ -71,11 +71,11 @@
    > - **<ins>CSAT</ins>**: Customer Satisfaction Score (CSAT), typically rated 1–5.
    > - **<ins>Comments</ins>**: The written feedback of the customer.
 
-5.**QualityScores Sheet**:
-> - **<ins>AgentID</ins>**: Unique **ID** for each **Agent**.
-> - **<ins>ReviewDate</ins>**: The date on which the quality audit was conducted.
-> - **<ins>ReviewDate</ins>**: A numerical rating that reflects the quality of the agent’s interaction based on predefined audit criteria.
-> - **<ins>ReviewedBy</ins>**: The name of the Quality Specialist who reviewed the ticket.
+5. **QualityScores Sheet**:
+   > - **<ins>AgentID</ins>**: Unique **ID** for each **Agent**.
+   > - **<ins>ReviewDate</ins>**: The date on which the quality audit was conducted.
+   > - **<ins>ReviewDate</ins>**: A numerical rating that reflects the quality of the agent’s interaction based on predefined audit criteria.
+   > - **<ins>ReviewedBy</ins>**: The name of the Quality Specialist who reviewed the ticket.
 
 </details>
 
