@@ -123,8 +123,8 @@ Build an interactive dashboard that helps:
 <img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/3667d84e-db03-4810-b626-f0efb986d692" />
 
 
+[![Watch the demo](https://github.com/user-attachments/assets/aebcf8a2-c6c8-428e-8811-1ca8a15637b2)](https://github.com/user-attachments/assets/aebcf8a2-c6c8-428e-8811-1ca8a15637b2)
 
-[![Watch the demo](https://github.com/user-attachments/assets/2509495d-7fbf-4781-88c7-67f0db18b34f)](https://github.com/user-attachments/assets/eeb2cb96-1bd4-416c-8281-7c89d84cdc17)
 
 ## 📌 Important Insights
 
